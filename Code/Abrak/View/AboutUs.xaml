@@ -1,0 +1,117 @@
+﻿<UserControl x:Class="Abrak.View.AboutUs"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Abrak.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- StackPanel for Developer Info -->
+        <StackPanel Grid.Row="1">
+            <!-- Developer Title -->
+            <TextBlock x:Name="DeveloperTitle"
+                       Text="Developer"
+                       Foreground="White"
+                       HorizontalAlignment="Center"
+                       FontSize="25"
+                       FontFamily="chilanka"
+                       Opacity="0">
+                <TextBlock.RenderTransform>
+                    <TranslateTransform x:Name="DeveloperTitleTransform" X="-500"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+
+            <!-- Developer Image -->
+            <Image x:Name="DeveloperImage"
+                   Source="../Resources/Images/developer.jpg"
+                   Width="300"
+                   Height="300"
+                   Margin="20"
+                   Opacity="0">
+                <Image.RenderTransform>
+                    <TranslateTransform x:Name="DeveloperImageTransform" Y="500"/>
+                </Image.RenderTransform>
+            </Image>
+
+            <!-- Developer Name -->
+            <TextBlock x:Name="DeveloperNameText"
+                       Text="{Binding DeveloperName}"
+                       Foreground="White"
+                       HorizontalAlignment="Center"
+                       FontSize="40"
+                       FontFamily="chilanka"
+                       Opacity="0">
+                <TextBlock.RenderTransform>
+                    <TranslateTransform x:Name="DeveloperNameTransform" X="500"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+
+            <!-- Developer Email -->
+            <TextBlock x:Name="DeveloperEmailText"
+                       Text="{Binding DeveloperEmail}"
+                       Foreground="White"
+                       HorizontalAlignment="Center"
+                       FontFamily="chilanka"
+                       Margin="30"
+                       Opacity="0">
+                <TextBlock.RenderTransform>
+                    <TranslateTransform x:Name="DeveloperEmailTransform" Y="-500"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+
+    <!-- Storyboard for Animations -->
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <!-- Developer Title Animation -->
+                    <DoubleAnimation Storyboard.TargetName="DeveloperTitle"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="0" To="1" Duration="0:0:0.5"/>
+                    <DoubleAnimation Storyboard.TargetName="DeveloperTitleTransform"
+                                     Storyboard.TargetProperty="X"
+                                     From="-500" To="0" Duration="0:0:0.5"/>
+
+                    <!-- Developer Image Animation -->
+                    <DoubleAnimation Storyboard.TargetName="DeveloperImage"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="0" To="1" Duration="0:0:0.5"
+                                     BeginTime="0:0:0.5"/>
+                    <DoubleAnimation Storyboard.TargetName="DeveloperImageTransform"
+                                     Storyboard.TargetProperty="Y"
+                                     From="500" To="0" Duration="0:0:0.5"
+                                     BeginTime="0:0:0.5"/>
+
+                    <!-- Developer Name Animation -->
+                    <DoubleAnimation Storyboard.TargetName="DeveloperNameText"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="0" To="1" Duration="0:0:0.5"
+                                     BeginTime="0:0:1"/>
+                    <DoubleAnimation Storyboard.TargetName="DeveloperNameTransform"
+                                     Storyboard.TargetProperty="X"
+                                     From="500" To="0" Duration="0:0:0.5"
+                                     BeginTime="0:0:1"/>
+
+                    <!-- Developer Email Animation -->
+                    <DoubleAnimation Storyboard.TargetName="DeveloperEmailText"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="0" To="1" Duration="0:0:0.5"
+                                     BeginTime="0:0:1.5"/>
+                    <DoubleAnimation Storyboard.TargetName="DeveloperEmailTransform"
+                                     Storyboard.TargetProperty="Y"
+                                     From="-500" To="0" Duration="0:0:0.5"
+                                     BeginTime="0:0:1.5"/>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </UserControl.Triggers>
+</UserControl>

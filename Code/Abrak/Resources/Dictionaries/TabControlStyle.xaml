@@ -1,0 +1,58 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style TargetType="TabItem" x:Key="tabItemStyle">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="TabItem">
+                    <Grid x:Name="RootGrid">
+
+                        <!-- ✅ Ensure the Border adapts to size changes -->
+                        <Border x:Name="TabItemBorder"
+                            Margin="4,10"
+                            Background="{TemplateBinding Background}" 
+                            BorderBrush="{TemplateBinding BorderBrush}" 
+                            BorderThickness="1.5"
+                            CornerRadius="5" 
+                            Padding="5" 
+                            >
+
+                            <ContentPresenter ContentSource="Header" 
+                                          HorizontalAlignment="Center" 
+                                          VerticalAlignment="Center" />
+                        </Border>
+
+                        <!-- ✅ VisualStateManager applies animations -->
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal">
+                                    <Storyboard>
+                                        <!-- When not selected, BorderBrush is transparent -->
+                                        <ColorAnimation Storyboard.TargetName="TabItemBorder"
+                                                    Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)"
+                                                    To="Transparent" Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="TabItemBorder"
+                                                    Storyboard.TargetProperty="MinWidth"
+                                                    To="120" Duration="0:0:0.2"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Selected">
+                                    <Storyboard>
+                                        <!-- When selected, BorderBrush becomes white -->
+                                        <ColorAnimation Storyboard.TargetName="TabItemBorder"
+                                                    Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)"
+                                                    To="White" Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="TabItemBorder"
+                                                    Storyboard.TargetProperty="MinWidth"
+                                                    To="150" Duration="0:0:0.2"/>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

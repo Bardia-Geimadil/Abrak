@@ -1,0 +1,214 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Projects\\C#_projects\\WPF\\Abrak\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|g:\\projects\\c#_projects\\wpf\\abrak\\abrak\\view\\cityminiview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|solutionrelative:abrak\\view\\cityminiview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|g:\\projects\\c#_projects\\wpf\\abrak\\abrak\\converters\\weatherconditiontobackgroundconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|solutionrelative:abrak\\converters\\weatherconditiontobackgroundconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|g:\\projects\\c#_projects\\wpf\\abrak\\abrak\\converters\\favoritecolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|solutionrelative:abrak\\converters\\favoritecolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|g:\\projects\\c#_projects\\wpf\\abrak\\abrak\\viewmodel\\citymini_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|solutionrelative:abrak\\viewmodel\\citymini_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|g:\\projects\\c#_projects\\wpf\\abrak\\abrak\\view\\cityminiview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|solutionrelative:abrak\\view\\cityminiview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|g:\\projects\\c#_projects\\wpf\\abrak\\abrak\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|solutionrelative:abrak\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|g:\\projects\\c#_projects\\wpf\\abrak\\abrak\\view\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|solutionrelative:abrak\\view\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|g:\\projects\\c#_projects\\wpf\\abrak\\abrak\\view\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|solutionrelative:abrak\\view\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|g:\\projects\\c#_projects\\wpf\\abrak\\abrak\\viewmodel\\citylistview_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|solutionrelative:abrak\\viewmodel\\citylistview_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|g:\\projects\\c#_projects\\wpf\\abrak\\abrak\\view\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|solutionrelative:abrak\\view\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|g:\\projects\\c#_projects\\wpf\\abrak\\abrak\\view\\citylistview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4BB4A51E-3998-4019-89B7-756792DAE6F3}|Abrak\\Abrak.csproj|solutionrelative:abrak\\view\\citylistview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 321,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CityMiniView.xaml.cs",
+              "DocumentMoniker": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\View\\CityMiniView.xaml.cs",
+              "RelativeDocumentMoniker": "Abrak\\View\\CityMiniView.xaml.cs",
+              "ToolTip": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\View\\CityMiniView.xaml.cs",
+              "RelativeToolTip": "Abrak\\View\\CityMiniView.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T18:31:52.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Abrak\\MainWindow.xaml",
+              "ToolTip": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\MainWindow.xaml",
+              "RelativeToolTip": "Abrak\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T18:31:29.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\View\\Home.xaml",
+              "RelativeDocumentMoniker": "Abrak\\View\\Home.xaml",
+              "ToolTip": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\View\\Home.xaml",
+              "RelativeToolTip": "Abrak\\View\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T18:31:18.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\View\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "Abrak\\View\\SettingsPage.xaml",
+              "ToolTip": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\View\\SettingsPage.xaml",
+              "RelativeToolTip": "Abrak\\View\\SettingsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T18:31:12.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FavoriteColorConverter.cs",
+              "DocumentMoniker": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\Converters\\FavoriteColorConverter.cs",
+              "RelativeDocumentMoniker": "Abrak\\Converters\\FavoriteColorConverter.cs",
+              "ToolTip": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\Converters\\FavoriteColorConverter.cs",
+              "RelativeToolTip": "Abrak\\Converters\\FavoriteColorConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T18:29:17.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherConditionToBackgroundConverter.cs",
+              "DocumentMoniker": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\Converters\\WeatherConditionToBackgroundConverter.cs",
+              "RelativeDocumentMoniker": "Abrak\\Converters\\WeatherConditionToBackgroundConverter.cs",
+              "ToolTip": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\Converters\\WeatherConditionToBackgroundConverter.cs",
+              "RelativeToolTip": "Abrak\\Converters\\WeatherConditionToBackgroundConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwB8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T18:28:11.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CityMiniView.xaml",
+              "DocumentMoniker": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\View\\CityMiniView.xaml",
+              "RelativeDocumentMoniker": "Abrak\\View\\CityMiniView.xaml",
+              "ToolTip": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\View\\CityMiniView.xaml",
+              "RelativeToolTip": "Abrak\\View\\CityMiniView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T18:26:40.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CityMini_ViewModel.cs",
+              "DocumentMoniker": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\ViewModel\\CityMini_ViewModel.cs",
+              "RelativeDocumentMoniker": "Abrak\\ViewModel\\CityMini_ViewModel.cs",
+              "ToolTip": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\ViewModel\\CityMini_ViewModel.cs",
+              "RelativeToolTip": "Abrak\\ViewModel\\CityMini_ViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T18:26:21.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\View\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "Abrak\\View\\Home.xaml.cs",
+              "ToolTip": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\View\\Home.xaml.cs",
+              "RelativeToolTip": "Abrak\\View\\Home.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAABEwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T10:54:57.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CityListView_ViewModel.cs",
+              "DocumentMoniker": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\ViewModel\\CityListView_ViewModel.cs",
+              "RelativeDocumentMoniker": "Abrak\\ViewModel\\CityListView_ViewModel.cs",
+              "ToolTip": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\ViewModel\\CityListView_ViewModel.cs",
+              "RelativeToolTip": "Abrak\\ViewModel\\CityListView_ViewModel.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAIAwwEcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T10:53:43.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CityListView.xaml.cs",
+              "DocumentMoniker": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\View\\CityListView.xaml.cs",
+              "RelativeDocumentMoniker": "Abrak\\View\\CityListView.xaml.cs",
+              "ToolTip": "G:\\Projects\\C#_projects\\WPF\\Abrak\\Abrak\\View\\CityListView.xaml.cs",
+              "RelativeToolTip": "Abrak\\View\\CityListView.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAABEwBoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T10:52:55.378Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 79,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

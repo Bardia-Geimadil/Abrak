@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\clear.jpg" />
+    <None Remove="Resources\Images\cloudy.jpg" />
+    <None Remove="Resources\Images\default.jpg" />
+    <None Remove="Resources\Images\developer.jpg" />
+    <None Remove="Resources\Images\mist.jpg" />
+    <None Remove="Resources\Images\overcast.jpg" />
+    <None Remove="Resources\Images\rain.jpg" />
+    <None Remove="Resources\Images\sky.jpg" />
+    <None Remove="Resources\Images\snowy.jpg" />
+    <None Remove="Resources\Images\Thundery.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\clear.jpg" />
+    <Resource Include="Resources\Images\cloudy.jpg" />
+    <Resource Include="Resources\Images\default.jpg" />
+    <Resource Include="Resources\Images\developer.jpg" />
+    <Resource Include="Resources\Images\mist.jpg" />
+    <Resource Include="Resources\Images\overcast.jpg" />
+    <Resource Include="Resources\Images\rain.jpg" />
+    <Resource Include="Resources\Images\sky.jpg" />
+    <Resource Include="Resources\Images\snowy.jpg" />
+    <Resource Include="Resources\Images\Thundery.jpg" />
+  </ItemGroup>
+
+</Project>
